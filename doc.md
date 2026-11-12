@@ -203,8 +203,14 @@ _Additional details (interview length, language(s), transcripts, consent forms, 
 ### Where we will put our software / code
 
 | Platform (e.g. GitHub, GitLab) | Archiving & DOI (e.g. Zenodo, Software Heritage) | Software licence | Documentation / environment | Cost |
-|--------------------------------|--------------------------------------------------|------------------|-----------------------------|------|
-| ... | ... | ... | ... | ... |
+|--------------------------------|--------------------------------------------------|------------------|-----------------------------|------|GitHub                          | Connect to Zenodo for DOI generation and version archiving| MIT License | README, requirements.txt, and documented analysis workflow| Free for public repositories
+|GitLab                          | Archive releases in Zenodo | Apache License 2.0 | README, scripts, dependency information | Free Tier Available
+|Zenedo                          | DOI for each archived release| Licence specified for code| Documentation, version information, reproducibility instructions| Free Tier Available
 
 ### Ethical, legal or practical barriers
-...
+1. Privacy and confidentiality: Interviewees may disclose sensitive migration experiences, personal relationships, or identifiable information about themselves and others.
+2. Re-identification risks: Even anonymised transcripts may identify participants through neighbourhood details, biographies, or distinctive stories.
+3. GDPR compliance: Personal data must be processed lawfully, securely, and for specified purposes. Special-category data require additional safeguards where applicable.
+4. Data security: Raw recordings and consent forms should be stored separately, encrypted, and accessible only to authorised researchers.
+5. Language and transcription: Multilingual interviews require appropriate transcription and translation practices, including documentation of translation decisions.
+6. Practical costs: Transcription, translation, anonymisation, and long-term archiving may require substantial time and funding.
