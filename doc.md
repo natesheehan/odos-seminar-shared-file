@@ -90,6 +90,52 @@ _Additional details (instruments, sampling rate, time period, file formats, appr
 
 | Principle | What we will do |
 |-----------|-----------------|
+| **Findable** (persistent identifiers, rich metadata, indexed in a searchable resource) | To make our volcanology and seismology dataset findable, we would assign it a unique and persistent identifier, such as a DOI. We would also include detailed metadata, such as the location, time range, coordinates, measurements, and sensor types. The metadata should clearly include the dataset's DOI so that people can identify it easily. Finally, we would publish the dataset on a searchable platform like Zenodo, so other researchers can find and access it. |
+| **Accessible** (retrievable via open protocols, metadata available even if data is restricted) | To make our volcanology and seismology dataset accessible, researchers could access the data using a standard, open, and free protocol like HTTPS. If necessary, we could use a login and permission system to control access to sensitive data. We should also make sure that the metadata remains available even if the dataset is removed or no longer accessible. For example, we could keep information about monitoring stations and regularly back up both the data and metadata. |
+| **Interoperable** (standard formats, shared vocabularies) | To make our volcanology and seismology dataset interoperable, we could use SOSA, which stands for Sensor, Observation, Sample, and Actuator. This would help us describe our data using shared and standardized terms, such as sensors and observations. We could also link each observation to the sensor that collected the data. This would make it easier for other researchers and systems to understand and use our dataset. |
+| **Reusable** (clear licence, provenance, community standards) | To make our volcanology and seismology dataset reusable, we should provide information about data quality and any missing data. We would also use a clear license, such as CC BY 4.0, so other researchers can reuse the data with proper credit. We should document where the data comes from, including the organisations and monitoring stations involved. Finally, we would follow international standards, such as FDSN standards for seismological data, to make sure our dataset can be easily understood and reused by other researchers. |
+
+### Where we will deposit the data
+
+| Repository | Why this repository | Access level (open / restricted / on request) | Licence | Cost of deposit |
+|------------|---------------------|-----------------------------------------------|---------|-----------------|
+| Zenodo | Provides a DOI, long term archiving and supports FAIR principles | open | CC BY 4.0 | Free |
+
+### Where we aim to publish
+
+| Option | Open access route (gold / green / diamond / preprint) | Estimated cost (APC) | Notes |
+|--------|------------------------------------------------------|----------------------|-------|
+| EarthArXiv | Preprint | Free | Share research results openly before journal publication |
+| Frontiers in Earth Science | Gold | CHF 3,150 for an Original Research paper | An open-access journal covering Earth sciences, including volcanology |
+
+### Where we will put our software / code
+
+| Platform (e.g. GitHub, GitLab) | Archiving & DOI (e.g. Zenodo, Software Heritage) | Software licence | Documentation / environment | Cost |
+|--------------------------------|--------------------------------------------------|------------------|-----------------------------|------|
+| GitHub | Zenodo for long-term archiving and a DOI for each software release | ... | ... | ... |
+
+### Ethical, legal or practical barriers
+...
+
+---
+
+## Group 3: Marine Acoustic Monitoring
+
+**About the study:** The study used hydrophone recordings from the North Sea to monitor whale communication alongside ship noise. It found that when ship noise was high, whales called less often and changed the pitch and loudness of their calls, indicating that shipping noise interferes with their ability to communicate.
+
+### Group members
+- ...
+- ...
+
+### About our data
+**Marine Acoustic Monitoring** – hydrophone recordings from the North Sea monitoring whale communication and ship noise.
+
+_Additional details (recording locations, duration, sampling rate, file formats, annotations, approximate size):_ ...
+
+### Making our data FAIR
+
+| Principle | What we will do |
+|-----------|-----------------|
 | **Findable** (persistent identifiers, rich metadata, indexed in a searchable resource) | ... |
 | **Accessible** (retrievable via open protocols, metadata available even if data is restricted) | ... |
 | **Interoperable** (standard formats, shared vocabularies) | ... |
@@ -107,67 +153,6 @@ _Additional details (instruments, sampling rate, time period, file formats, appr
 |--------|------------------------------------------------------|----------------------|-------|
 | ... | ... | ... | ... |
 | ... | ... | ... | ... |
-
-### Where we will put our software / code
-
-| Platform (e.g. GitHub, GitLab) | Archiving & DOI (e.g. Zenodo, Software Heritage) | Software licence | Documentation / environment | Cost |
-|--------------------------------|--------------------------------------------------|------------------|-----------------------------|------|
-| ... | ... | ... | ... | ... |
-
-### Ethical, legal or practical barriers
-...
-
----
-
-## Group 3: Marine Acoustic Monitoring
-
-**About the study:** The study used hydrophone recordings from the North Sea to monitor whale communication alongside ship noise. It found that when ship noise was high, whales called less often and changed the pitch and loudness of their calls, indicating that shipping noise interferes with their ability to communicate.
-
-### Group members
-- ...
-- ...
-
-### About our data
-**Marine Acoustic Monitoring** – hydrophone recordings from the North Sea monitoring whale communication and ship noise.
-This dataset is intended for:
-🧪 Bioacoustics research – studying whale communication and behavior
-🎶 Signal processing – exploring sound patterns and spectrograms
-🤖 Machine learning projects – classification, clustering, and audio analysis
-📚 Education and outreach – demonstrating marine mammal vocalizations
-Following are the columns of this dataset Audio Sample, Whale Species, Water Body, Time, Duration, Sampling Frequency, Maximum Amplitude, Maximum Frequency, Organisation
-It can be accessed at https://doi.org/10.1038/s41586-024-07421-0
-
-
-_Additional details (recording locations, duration, sampling rate, file formats, annotations, approximate size):_ ...
-
-### Making our data FAIR
-
-| Principle | What we will do |
-|-----------|-----------------|
-| **Findable**   | The protocol is open, free, and universally implementable 
-standard web protocols (e.g.: HTTPS): Ocean Networks Canada https://data.oceannetworks.ca/SearchHydrophoneData  |
-| **Accessible**  | Australian Ocean Data Network (Australian marine and climate science data), the protocol is open, free, and universally implementable 
-standard web protocols (e.g.: HTTPS): Ocean Networks Canada https://data.oceannetworks.ca/SearchHydrophoneData  
- |
-| **Interoperable** 
- | The data and its description are saved in common, standard file formats that computers can read automatically, and all descriptions are written in English.(FLAC for voices, CSV for tables and description as JSON)
- We use official, shared lists of terms instead of our own words: official scientific names and ID numbers for whale species from WoRMS (World Register of Marine Species), measurement and instrument terms from the NERC Vocabulary Server (NVS) NERC (Natural Environment Research Council) is the UK’s main funder of environmental research. Its Vocabulary Server (NVS), run by the British Oceanographic Data Centre, provides standard terms for marine data such as measurements, instruments and units, place names such as the North Sea from Marine Regions, and standard terms and units for underwater sound from ISO 18405.|
-| **Reusable**  | We include comprehensive metadata like hydrophone GPS coordinates, deployment depth, sampling rate, frequency range and target species (ship noise or whale noise or what kind of whale) |
-
-### Where we will deposit the data
-
-| Repository | Why this repository | Access level (open / restricted / on request) | Licence | Cost of deposit |
-||---------------------|-----------------------------------------------|---------|-----------------|
-| ... | ... | ... | ... | ... |
-
-### Where we aim to publish
-
-| Option | Open access route (gold / green / diamond / preprint) | Estimated cost (APC) | Notes |
-|--------|------------------------------------------------------|----------------------|-------|
-| Biorxiv |Green| Free | Our dataset only includes voice, official scientific names and ID numbers for whale species from WoRMS (World Register of Marine Species), measurement and instrument terms from the NERC Vocabulary Server (NVS) NERC (Natural Environment Research Council) is the UK’s main funder of environmental research. Its Vocabulary Server (NVS), run by the British Oceanographic Data Centre, provides standard terms for marine data such as measurements, instruments and units, place names such as the North Sea from Marine Regions, and standard terms and units for underwater sound from ISO 18405. So it does not need to be pre-reviewed.
- |
-| Journal of Ecoacoustics
- | Gold |The Journal of Ecoacoustics charges authors (or their institution or funding organisation) an article-processing charge (APC) 60 € (per article) +14€ (per published page). For instance,  for a paper of 10 pages, the author will be charged 60+140= 200 €. | ... |
 
 ### Where we will put our software / code
 
@@ -206,16 +191,14 @@ _Additional details (interview length, language(s), transcripts, consent forms, 
 
 | Repository | Why this repository | Access level (open / restricted / on request) | Licence | Cost of deposit |
 |------------|---------------------|-----------------------------------------------|---------|-----------------|
-| Zenodo | Zenodo is a free and open digital archive built by CERN and OpenAIRE, enabling researchers to share and preserve research output in any format | Open Access | CC BY-ND | 0 Euros |
+| ... | ... | ... | ... | ... |
 
 ### Where we aim to publish
 
 | Option | Open access route (gold / green / diamond / preprint) | Estimated cost (APC) | Notes |
 |--------|------------------------------------------------------|----------------------|-------|
-| Open Cultural Studies | Gold | 1050 Euro + VAT | Scholarly journal that explores the fields of Humanities, Social Sciences and Arts. |
-| Culture & History Digital Journal | Diamond | 0 Euro | The Journal aims to move beyond traditional, strictly chronological narratives and purely textual analysis. |
-| mediaTUM | Preprint | 0 Euro | Used to publish working papers, preprints, postprints, and research data while serving as TUM's in-house institutional repository. |
-| SocArxiv | Green | 0 Euro | Open archive of the social sciences, provides a free, non-profit, open access platform for social scientists to upload working papers, preprints, and published papers, with the option to link data and code. |
+| ... | ... | ... | ... |
+| ... | ... | ... | ... |
 
 ### Where we will put our software / code
 
