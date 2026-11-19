@@ -58,3 +58,5 @@ _Additional details (recording locations, duration, sampling rate, file formats,
 
 ### Ethical, legal or practical barriers
 International waters, endangering the whales' lives by tracking them, intervening in the whales' habitats by tracking them, 
+In terms of ethics, animal welfare should be considered during data collection, and the use of non-invasive methods is highly required
+
